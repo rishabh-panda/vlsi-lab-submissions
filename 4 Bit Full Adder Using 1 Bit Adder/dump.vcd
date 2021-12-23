@@ -1,0 +1,44 @@
+$date
+Thu Dec 23 10:47:36 2021
+$end
+$version
+Riviera-PRO Version 2020.04.130.7729
+$end
+$timescale
+1 ns
+$end
+
+$scope module fulladder4_tb $end
+$var wire 1 ! cout $end
+$var wire 4 " sum [3:0] $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+b101 "
+b10 #
+b11 $
+0%
+$end
+#20
+b101 #
+b0 "
+b1000 "
+#40
+b100 #
+b1010 $
+1!
+b0 "
+b10 "
+b110 "
+0!
+b1110 "
+#60
+b111 #
+b1000 $
+b1111 "
+#80
