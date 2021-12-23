@@ -1,0 +1,71 @@
+$date
+Thu Dec 23 10:47:16 2021
+$end
+$version
+Riviera-PRO Version 2020.04.130.7729
+$end
+$timescale
+1 ns
+$end
+
+$scope module fullsubtractor1_tb $end
+$var wire 1 ! diff $end
+$var wire 1 " bout $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % bin $end
+$upscope $end
+
+
+$scope module fullsubtractor4 $end
+$var wire 4 & diff [3:0] $end
+$var wire 1 ' bout $end
+$var wire 4 ( a [3:0] $end
+$var wire 4 ( b [3:0] $end
+$var wire 1 ) bin $end
+$var wire 1 * w1 $end
+$var wire 1 + w2 $end
+$var wire 1 , w3 $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+bx &
+x'
+bz (
+z)
+x*
+x+
+x,
+$end
+#20
+1%
+1"
+1!
+#40
+1$
+0%
+#60
+1%
+0!
+#80
+1#
+0$
+0%
+1!
+0"
+#100
+1%
+0!
+#120
+1$
+0%
+#140
+1%
+1"
+1!
