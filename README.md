@@ -1,2 +1,2 @@
 # VLSI-Laboratory
-Design and Testbench codes
+Design and Testbench codes for various hardware implementations.
